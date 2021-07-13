@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Image Carousel Slideshow </title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+    </head>
+    <body>
+        <h1> Image Carousel SlideShow </h1>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div class="leftArrow" onclick="plusSlides(-1)"><span class="arrow arrowLeft"></span></div>
+                <div class="rightArrow" onclick="plusSlides(1)"><span class="arrow arrowRight"></span></div>
+                <div class="captionHolder"><p class="captionText"></p></div>
+                
+                <div class="imageHolder">
+                    <img src="image1.jpg"/>
+                    <p class="captionText"> Blue and White Sky with Green Land </p> 
+                </div>
+                
+                <div class="imageHolder">
+                    <img src="image2.jpg"/>
+                    <p class="captionText"> Wooden House in a Field </p>
+                </div>
+                
+                <div class="imageHolder">
+                    <img src="image3.jpg"/>
+                    <p class="captionText"> Landscape </p>
+                </div>
+                
+                <div class="imageHolder">
+                    <img src="image4.jpg"/>
+                    <p class="captionText"> Green grass with Sky </p>
+                </div>
+            
+            </div>
+            <div id="dotsContainer"></div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
